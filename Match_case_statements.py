@@ -18,7 +18,7 @@ def day_of_week(day):
             return "It's Saturday"
         case 7:
             return "It's Sunday"
-        case _:                                 # Wild card = si aucun "case" n'est valide -> else statement
+        case _:                                 # Wild card = si aucun cas n'est valide -> else statement
             return "Not a valid day"
 
 
