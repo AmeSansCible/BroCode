@@ -18,7 +18,7 @@ class Employee:
 
     @staticmethod
     def is_valid_position(position):                                # méthode appartenant à une classe
-                                                                    # mais qui ne nécessitent pas d'instance (self) pour être appelée
+                                                                    # mais qui ne nécessite pas d'instance (self) pour être appelée
         valid_positions = ["Manager", "Cashier", "Cook", "Janito"]
         return position in valid_positions
 
