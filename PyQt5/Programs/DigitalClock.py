@@ -19,7 +19,7 @@ class DigitalClock(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("Digital Clock")
+        self.setWindowTitle("Temps perdu")
         self.setGeometry(600, 400, 300, 100)
 
         # Crée un layout vertical
